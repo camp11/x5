@@ -544,7 +544,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array(
                     'type' => 'text',
-                    'text' => 'Pagi juga,Sahabat SAS, Senyum ya! '.$profil->displayName
+                    'text' => 'Pagi juga '.$profil->displayName,' Senyum ya!'
                 )
             )
         );
