@@ -738,7 +738,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1532253224/SAS/WELCOME',
+  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1532255416/SAS/WELCOME',
   'altText' => 'WELCOME TO SAS Family Room',
   'baseSize' => 
   array (
