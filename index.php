@@ -233,7 +233,7 @@ if ($type == 'join' || $command == 'Help') {
 }
 #-------------------------[Function]-------------------------#
 //show menu, saat join dan command,menu
-if ($type == 'join' || $command == '') {
+if ($type == 'join' || $command == 'dev') {
     $text .= "====[HALLO SOBAT SAS]====";
     $text .= " \n";
     $text .= "Terima Kasih Atas Invite nya\n";
@@ -257,6 +257,7 @@ if ($type == 'text' || $command == 'Wc') {
     $text .= "=======================\n";	
     $text .= "      >SAS-Family Room<\n";	
     $text .= "   SMULE AMAZING SINGER";
+    $text .= " \n";
     $text .= "=======================\n";	
     $text .= "  Jangan Lupa Cek Note ya\n";
     $text .= "[Salken dari Saya]->$profil->displayName\n";
