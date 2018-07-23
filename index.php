@@ -780,41 +780,6 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == '' || $command == '' ) {
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1532241046/DMS1/LOGO',
-  'altText' => 'DMS1 Logo',
-  'baseSize' => 
-  array (
-    'height' => 1040,
-    'width' => 1040,
-  ),
-  'actions' => 
-  array (
-    0 => 
-    array (
-      'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/SAS_OFFICIAL',
-      'area' => 
-      array (
-        'x' => 0,
-        'y' => 0,
-        'width' => 1040,
-        'height' => 1040,
-      ),
-    ),
-  ),
-)
-            )
-        );
-    }
-}
-//pesan bergambar
-if($message['type']=='text') {
 	    if ($command == 'Creator' || $command == 'creator' ) {
         $balas = array(
             'replyToken' => $replyToken,
